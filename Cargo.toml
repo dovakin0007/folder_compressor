@@ -1,0 +1,13 @@
+[package]
+name = "zip_file_compressor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+zip = {version = "0.6.6" , features = ["deflate", "deflate-miniz", "deflate-zlib", "bzip2", "zstd"]}
+walkdir = "2.3.3"
+
+
+
